@@ -1,7 +1,16 @@
 ---
-title: "roshananair.github.io"
+title: "Roshan Andres Nair"
+image: "images/headshot.jpg"
+toc: false
+about:
+    template: trestles
+    image-shape: rounded
+    image-width: 17em
+    links:
+        - text: Email
+          href: mailto:roshannair@ucsb.edu
+        - text: Github
+          href: https://github.com/roshananair
 ---
 
-What you edit here changes whats on the landing page
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Roshan Andres Nair is a Master's student in Environmental Data Science at the Bren School of Environmental Science & Management at UC Santa Barbara. Since earning a Bachelor of Science from UC Santa Barbara's Environmental Studies Program in 2023, he has worked in cannabis laboratory science and in arts education programs on the Central Coast. Most recently, he has supported research on insect pollinators as a field and laboratory assistant with the Cheadle Center for Biodiversity and Ecological Restoration, and has been curating the terrestrial mollusk collection at the Santa Barbara Museum of Natural History's Collections & Research Center. Roshan is interested in leveraging data science tools to answer questions about ecosystems and biodiversity, particularly those that draw on natural history collections and ecological data.

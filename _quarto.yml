@@ -1,23 +1,26 @@
 # This is to edit the structure/names of the website/files
 project:
   type: website
-  output-dir: docs
+  output-dir: docs # Do no touch anything in the docs folder ever
 
 website:
-  title: "roshananair.github.io"
+  title: "Roshan Andres Nair"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: resources.qmd
+        text: Resources
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: minty
+      dark: solar
     css: styles.css
     toc: true
+    page-layout: full
 
 
 
