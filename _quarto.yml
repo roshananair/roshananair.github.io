@@ -6,19 +6,20 @@ project:
 website:
   title: "Roshan Andres Nair"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
       - href: resources.qmd
         text: Resources
-
+  page-footer:
+    background: dark
+    left: Copyright 2026, Roshan Andres Nair
+    right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/roshananair/roshananair.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
 format:
   html:
-    theme:
-      light: minty
-      dark: solar
-    css: styles.css
+    theme: styles.scss
+    mainfont: Montserrat
     toc: true
     page-layout: full
 
